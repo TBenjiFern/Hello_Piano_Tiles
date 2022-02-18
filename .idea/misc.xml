@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/benja/AndroidStudioProjects/HelloPianoTiles/app/src/main/res/layout/activity_main.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/benja/AndroidStudioProjects/HelloPianoTiles/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/benja/AndroidStudioProjects/HelloPianoTiles/app/src/main/res/layout/game_screen.xml" value="0.2" />
+        <entry key="..\:/Users/benja/AndroidStudioProjects/HelloPianoTiles/app/src/main/res/layout/linear_grid.xml" value="0.264" />
+        <entry key="..\:/Users/benja/AndroidStudioProjects/HelloPianoTiles/app/src/main/res/layout/play_button.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/benja/AndroidStudioProjects/HelloPianoTiles/app/src/main/res/layout/start_screen.xml" value="0.264" />
+        <entry key="..\:/Users/benja/AndroidStudioProjects/HelloPianoTiles/app/src/main/res/layout/timer_score.xml" value="0.4" />
       </map>
     </option>
   </component>

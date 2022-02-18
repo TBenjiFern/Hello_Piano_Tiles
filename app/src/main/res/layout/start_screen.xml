@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="5dp">
+
+    <include
+        android:id="@+id/include_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/timer_score">
+
+    </include>
+
+    <include
+        android:id="@+id/include_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/play_button">
+
+    </include>
+
+    <include
+        android:id="@+id/include_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        layout="@layout/linear_grid"
+        android:layout_above="@+id/include_2"
+        android:layout_below="@+id/include_1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+    </include>
+
+</RelativeLayout>
